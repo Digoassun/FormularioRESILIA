@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro RESILIA</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="R.ico">
+</head>
+
+<body id="body">
+    <div class="div1">
+        <header id="header">
+            <div class="divh">
+                <img class ="img1"src="https://www.resilia.com.br/wp-content/themes/resiliaTheme/assets/images/logo-mobile.png">
+            </div>
+            <div class="divi">
+            <a href="">Quem Somos</a>
+            <a href="">Nossos Cursos</a>
+            <a href="">Para Empresas</a>
+            <a href="">Saiba Mais</a>
+            <a href="">Blog</a>
+            </div>
+            <div class="divinsc">
+            <a href="">Inscrever-se</a>
+            </div>
+        </header>
+    </div>
+    <div class="div2">
+        <h1 class="titulo">Quer estudar em nossa nova turma?SE INSCREVA!</h1></div>
+        <br>
+    <section>
+        <div>
+            <h2 class="subtitulo">Formação Web Dev Resilia</h2>
+        </div>
+        <div class="div3">
+            <form class="formu" method="get" action="test.php">
+                <fieldset class="field">
+                    <p class="dados">Insira seus dados abaixo:</p>
+                    <label for="fullname">Nome Completo:</label><br>
+                    <input type="text" class="input" name="fullname" placeholder="Ex:João da Silva Freitas" required autocomplete="off"><br>
+                    <label for="birth">Data de Nascimento:</label><br>
+                    <input type="text" class="data" name="birth" placeholder="Ex:01/01/1900" required autocomplete="off" onfocus="(this.type='date')"><br>
+                    <label for="cpf">CPF:</label><br>
+                    <input type="number" class="input" name="cpf" placeholder="Ex:111.111.111-11" required autocomplete="off"><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" class="input" name="email" placeholder="Ex:joaodasilva@gmail.com" required autocomplete="off"><br>
+                    <label for="estado">De qual estado você é?</label>
+                    <select id="estados" name="estados">
+                        <option value="blank">Escolha uma opção:</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select><br>
+                    <input class="sub" type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </section>   
+    <footer>
+        <img class="img2" src="https://www.resilia.com.br/wp-content/themes/resiliaTheme/assets/images/logo-mobile.png">
+        <p class="cr">Todos os direitos reservados ©2021 Resilia</p>
+    </footer>
+</body>
+
+</html>
